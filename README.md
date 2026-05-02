@@ -15,12 +15,11 @@ A fast and simple Roblox cookie checker with multi-threading, progress bar, and 
   - cookies/dead.txt
   - cookies/error.txt
 - 💾 JSON output (result.json)
-- ⚙️ Configurable via config.json
 - 🖥 Clean terminal UI (auto clear)
 
 ---
 
-# 📦 Usage
+## 📦 Usage
 
 ## ▶️ Option 1 — Use Prebuilt EXE (Recommended)
 
@@ -58,48 +57,26 @@ cookies/  ├─ alive.txt  ├─ dead.txt  └─ error.txt  result.json
 
 ## 🧑‍💻 Option 2 — Run from Source
 
-### 1. Clone repository
+### 1. Install dependencies
 
-bash git clone https://github.com/YOUR_USERNAME/CookieChecker.git cd CookieChecker 
-
----
-
-### 2. Install dependencies
-
-bash pip install -r requirements.txt 
+pip install -r requirements.txt
 
 ---
 
-### 3. Run
+### 2. Run
 
-bash python main.py 
-
----
-
-## ⚙️ Configuration
-
-A config.json file will be created automatically on first run.
-
-Example:
-
-json {   "network": {     "timeout": 10,     "retries": 3,     "retry_delay": 1   },   "performance": {     "threads": 10   },   "export": {     "txt": true,     "json": true   } } 
-
----
-
-## 📁 Output Structure
-
-cookies/  ├─ alive.txt  ├─ dead.txt  └─ error.txt  result.json
+python main.py
 
 ---
 
 ## ⚠️ Notes
 
 - The .exe may be flagged by antivirus (false positive from PyInstaller)
-- Do not run extremely high threads (may cause rate limit)
+- Running too many threads may cause rate limits
 - Use responsibly
 
 ---
 
 ## ⭐ Support
 
-If you like this project, consider giving it a s
+If you find this project useful, consider giving it a sta
