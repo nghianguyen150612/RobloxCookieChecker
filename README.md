@@ -20,12 +20,6 @@ A fast and simple Roblox cookie checker with multi-threading, progress bar, and 
 
 ---
 
-## 📸 Example Output
-
-Checking █████████████████ 100% ALIVE: 15    DEAD: 42    ERROR: 3
-
----
-
 # 📦 Usage
 
 ## ▶️ Option 1 — Use Prebuilt EXE (Recommended)
