@@ -35,7 +35,9 @@ A fast and simple Roblox cookie checker with multi-threading, progress bar, and 
 - Double-click CookieChecker.exe
 - A menu will appear:
 
-[1] Check cookies [2] View results [3] Exit
+[1] Check cookies 
+[2] View results 
+[3] Exit
 
 ---
 
@@ -51,7 +53,10 @@ A fast and simple Roblox cookie checker with multi-threading, progress bar, and 
 
 After completion, files will be created:
 
-cookies/  ├─ alive.txt  ├─ dead.txt  └─ error.txt  result.json
+cookies/  
+├─ alive.txt  
+├─ dead.txt  
+└─ error.txt  result.json
 
 ---
 
